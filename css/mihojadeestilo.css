@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    /*FLEX*/
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Lalezar', ;
+}
+
+body {
+    background: #fff;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 0px;
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header .menu {
+    width: 50%;
+    margin-right: -80px;
+    /*FLEX*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .menu a {
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    /*FLEX*/
+    flex-grow: 1;
+}
+
+header .session {
+    color: white;
+    align-items: center;
+    margin-right: 20px;
+}
+
+header .menu a:hover {
+    background: gray;
+}
+
+header img {
+    margin-right: -150px;
+}
+
+div .Imagen {
+    height: 700px;
+    width: 100%;
+}
+
+.Login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    margin-top: 130px;
+    margin-bottom: 250px;
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.fondo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 0;
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fondo img {
+    margin-top: -75px;
+    margin-bottom: 40px;
+    width: 25%;
+    border-radius: 50%;
+    border: solid #ffffff 5px;
+}
+
+.fondo h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.fondo form span {
+    margin-right: 0px;
+    background-color: rgba(255, 255, 255, .6);
+    color: #000;
+    border: solid 7px rgba(255, 255, 255, .1);
+    border-bottom: solid 9.5px rgba(255, 255, 255, .1);
+    border-top: solid 9px rgba(255, 255, 255, .1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.inp {
+    box-shadow: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, .1);
+    width: 90%;
+    margin-bottom: 35px;
+    height: 30px;
+    border: solid 2px rgba(255, 255, 255, .5);
+    font-size: 20px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: right;
+    transition: all 250ms ease;
+}
+
+.fondo form .inp:focus {
+    outline: 0px;
+    background-color: rgba(255, 255, 255, .6);
+    border: solid 2px rgba(255, 255, 255 .01);
+    color: #000;
+}
+
+.boton {
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    border: 0;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.0);
+    border-bottom: solid 1px #ffffff;
+    color: #fff;
+    margin-top: 50px;
+    transition: all 200ms ease;
+}
+
+.boton:hover {
+    width: 120%;
+    margin-left: -10;
+}
+
+.boton:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.he {
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+    transition: all 300ms ease;
+}
+
+.he:hover {
+    color: rgb(184, 203, 214);
+}
+
+.boton:hover {
+    border: 120%;
+}
+
+.BarraLateral {
+    background-image: linear-gradient(cornflowerblue, white, cornflowerblue);
+    height: 130px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.Barcontent {
+    font-family: 'Lalezar', ;
+}
+
+.main_content {
+    background: lightslategrey;
+    /*flex*/
+    display: flex;
+    justify-content: column;
+}
+
+.main_content img {
+    height: 110px;
+    width: 150px;
+    margin: 40px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+footer {
+    background: black;
+    margin-top: 30%;
+}
+
+footer p {
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
